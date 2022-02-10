@@ -19,7 +19,7 @@ local function moveForward()
             end
 
         elseif turtle.attack() then
-            print()
+            turtle.attack()
         end
 
     end
